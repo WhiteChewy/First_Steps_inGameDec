@@ -11,8 +11,7 @@ class Game:
                  height,
                  back_image_filename,
                  frame_rate):
-        self.background_image = \
-            pygame.image.load(back_image_filename)
+        self.background_image = pygame.image.load(back_image_filename)
         self.frame_rate = frame_rate
         self.game_over = False
         #self.object - хранит все игровые объекты которые должны рендерится
